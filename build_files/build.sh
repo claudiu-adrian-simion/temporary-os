@@ -6,7 +6,7 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y just
-dnf5 group install -y nix-core
+dnf5 group install -y development-tools
 
 # Remove unecessary packages
 # Firefox
